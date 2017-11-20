@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {697, 667}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{78, 90}, {150, 408}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "font_name" : "<System>",
+          "editable" : true,
+          "frame" : "{{249, 234}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "34243962-9C2D-43D5-97CB-4B8978F589A4",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "textview",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{301, 90}, {211, 33}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "create_array_touch_up_inside",
+          "frame" : "{{309, 318}, {80, 32}}",
+          "title" : "create_array",
+          "uuid" : "84BC2C7B-B414-4055-955F-8DAC96627775",
+          "class" : "Button",
+          "name" : "create_array",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{301, 463}, {211, 35}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "get_average_touch_up_inside",
+          "frame" : "{{309, 318}, {80, 32}}",
+          "title" : "average is:",
+          "uuid" : "B4C9FCDC-F82C-4FA9-B9C8-1994FE3FA735",
+          "class" : "Button",
+          "name" : "average",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{520, 443}, {121, 55}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{274, 318}, {150, 32}}",
+          "uuid" : "2DD569EC-E6B2-4CB5-A9DA-A00C459F6F8C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "average_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
